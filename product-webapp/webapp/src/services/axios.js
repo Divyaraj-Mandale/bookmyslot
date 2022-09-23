@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // this is new code
-console.log("PAGEURL :> ",window.location.href)
+/*console.log("PAGEURL :> ",window.location.href)
 
 const routeUrl = window.location.href
 const url = routeUrl.slice(0,-6)
@@ -20,7 +20,7 @@ console.log("BUILT URL :", builtip)
 
 
 export default instance;
-
+ */
 
 
 // this is old code
@@ -32,13 +32,13 @@ export default instance;
   
 // });
 
-//  const instance = axios.create({
+  const instance = axios.create({
     
     // baseURL: `${process.env.REACT_APP_LOCAL_URL}`
-//    baseURL: `${process.env.REACT_APP_API_BASEURL}`
- // });
+    baseURL: `${process.env.REACT_APP_API_BASEURL}`
+  });
 
 
-//  export default instance;
+  export default instance;
 
 
