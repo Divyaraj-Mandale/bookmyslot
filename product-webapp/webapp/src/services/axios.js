@@ -10,7 +10,7 @@ var ip = url.split('/')[2].split(':')[0];
 const builtip = 'http://' + ip + ":8080"
 console.log("BUILT URL :", builtip)
 
-//REACT_APP_API_BASEURL = "http://18.224.126.68:8080/%22
+//REACT_APP_API_BASEURL = "http://3.139.253.67:8080/%22
 
   const instance = axios.create({
 
